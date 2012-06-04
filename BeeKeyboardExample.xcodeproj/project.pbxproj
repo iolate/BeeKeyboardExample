@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3DCA33157CDCC30050D292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3DCA32157CDCC30050D292 /* UIKit.framework */; };
+		DC3DCA35157CDCC30050D292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3DCA34157CDCC30050D292 /* Foundation.framework */; };
+		DC3DCA37157CDCC30050D292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3DCA36157CDCC30050D292 /* CoreGraphics.framework */; };
+		DC3DCA3D157CDCC30050D292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC3DCA3B157CDCC30050D292 /* InfoPlist.strings */; };
+		DC3DCA3F157CDCC30050D292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DCA3E157CDCC30050D292 /* main.m */; };
+		DC3DCA43157CDCC30050D292 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DCA42157CDCC30050D292 /* AppDelegate.m */; };
+		DC3DCA46157CDCC30050D292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3DCA45157CDCC30050D292 /* ViewController.m */; };
+		DC3DCA49157CDCC30050D292 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3DCA47157CDCC30050D292 /* ViewController.xib */; };
+		DC3DCA53157CE4610050D292 /* KeyData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC3DCA52157CE4610050D292 /* KeyData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC3DCA2E157CDCC30050D292 /* BeeKeyboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeKeyboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3DCA32157CDCC30050D292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC3DCA34157CDCC30050D292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC3DCA36157CDCC30050D292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC3DCA3A157CDCC30050D292 /* BeeKeyboardExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeeKeyboardExample-Info.plist"; sourceTree = "<group>"; };
+		DC3DCA3C157CDCC30050D292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC3DCA3E157CDCC30050D292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC3DCA40157CDCC30050D292 /* BeeKeyboardExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeeKeyboardExample-Prefix.pch"; sourceTree = "<group>"; };
+		DC3DCA41157CDCC30050D292 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC3DCA42157CDCC30050D292 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC3DCA44157CDCC30050D292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC3DCA45157CDCC30050D292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC3DCA48157CDCC30050D292 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DC3DCA51157CDFCC0050D292 /* BeeKeycode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeKeycode.h; sourceTree = "<group>"; };
+		DC3DCA52157CE4610050D292 /* KeyData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3DCA2B157CDCC30050D292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3DCA33157CDCC30050D292 /* UIKit.framework in Frameworks */,
+				DC3DCA35157CDCC30050D292 /* Foundation.framework in Frameworks */,
+				DC3DCA37157CDCC30050D292 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3DCA23157CDCC30050D292 = {
+			isa = PBXGroup;
+			children = (
+				DC3DCA38157CDCC30050D292 /* BeeKeyboardExample */,
+				DC3DCA31157CDCC30050D292 /* Frameworks */,
+				DC3DCA2F157CDCC30050D292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3DCA2F157CDCC30050D292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DCA2E157CDCC30050D292 /* BeeKeyboardExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3DCA31157CDCC30050D292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DCA32157CDCC30050D292 /* UIKit.framework */,
+				DC3DCA34157CDCC30050D292 /* Foundation.framework */,
+				DC3DCA36157CDCC30050D292 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3DCA38157CDCC30050D292 /* BeeKeyboardExample */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DCA41157CDCC30050D292 /* AppDelegate.h */,
+				DC3DCA42157CDCC30050D292 /* AppDelegate.m */,
+				DC3DCA44157CDCC30050D292 /* ViewController.h */,
+				DC3DCA45157CDCC30050D292 /* ViewController.m */,
+				DC3DCA51157CDFCC0050D292 /* BeeKeycode.h */,
+				DC3DCA52157CE4610050D292 /* KeyData.plist */,
+				DC3DCA47157CDCC30050D292 /* ViewController.xib */,
+				DC3DCA39157CDCC30050D292 /* Supporting Files */,
+			);
+			path = BeeKeyboardExample;
+			sourceTree = "<group>";
+		};
+		DC3DCA39157CDCC30050D292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DCA3A157CDCC30050D292 /* BeeKeyboardExample-Info.plist */,
+				DC3DCA3B157CDCC30050D292 /* InfoPlist.strings */,
+				DC3DCA3E157CDCC30050D292 /* main.m */,
+				DC3DCA40157CDCC30050D292 /* BeeKeyboardExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3DCA2D157CDCC30050D292 /* BeeKeyboardExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3DCA4C157CDCC30050D292 /* Build configuration list for PBXNativeTarget "BeeKeyboardExample" */;
+			buildPhases = (
+				DC3DCA2A157CDCC30050D292 /* Sources */,
+				DC3DCA2B157CDCC30050D292 /* Frameworks */,
+				DC3DCA2C157CDCC30050D292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeKeyboardExample;
+			productName = BeeKeyboardExample;
+			productReference = DC3DCA2E157CDCC30050D292 /* BeeKeyboardExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3DCA25157CDCC30050D292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = DC3DCA28157CDCC30050D292 /* Build configuration list for PBXProject "BeeKeyboardExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC3DCA23157CDCC30050D292;
+			productRefGroup = DC3DCA2F157CDCC30050D292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3DCA2D157CDCC30050D292 /* BeeKeyboardExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3DCA2C157CDCC30050D292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3DCA3D157CDCC30050D292 /* InfoPlist.strings in Resources */,
+				DC3DCA49157CDCC30050D292 /* ViewController.xib in Resources */,
+				DC3DCA53157CE4610050D292 /* KeyData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3DCA2A157CDCC30050D292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3DCA3F157CDCC30050D292 /* main.m in Sources */,
+				DC3DCA43157CDCC30050D292 /* AppDelegate.m in Sources */,
+				DC3DCA46157CDCC30050D292 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC3DCA3B157CDCC30050D292 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3DCA3C157CDCC30050D292 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC3DCA47157CDCC30050D292 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3DCA48157CDCC30050D292 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3DCA4A157CDCC30050D292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC3DCA4B157CDCC30050D292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3DCA4D157CDCC30050D292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeeKeyboardExample/BeeKeyboardExample-Prefix.pch";
+				INFOPLIST_FILE = "BeeKeyboardExample/BeeKeyboardExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC3DCA4E157CDCC30050D292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeeKeyboardExample/BeeKeyboardExample-Prefix.pch";
+				INFOPLIST_FILE = "BeeKeyboardExample/BeeKeyboardExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3DCA28157CDCC30050D292 /* Build configuration list for PBXProject "BeeKeyboardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DCA4A157CDCC30050D292 /* Debug */,
+				DC3DCA4B157CDCC30050D292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3DCA4C157CDCC30050D292 /* Build configuration list for PBXNativeTarget "BeeKeyboardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DCA4D157CDCC30050D292 /* Debug */,
+				DC3DCA4E157CDCC30050D292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3DCA25157CDCC30050D292 /* Project object */;
+}
