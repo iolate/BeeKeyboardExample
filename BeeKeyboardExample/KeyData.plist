@@ -83,9 +83,9 @@
 		<key>42</key>
 		<string>⌫</string>
 		<key>43</key>
-		<string>↔</string>
+		<string>Tab</string>
 		<key>44</key>
-		<string>▭</string>
+		<string>Space</string>
 		<key>45</key>
 		<string>-</string>
 		<key>46</key>
@@ -146,6 +146,46 @@
 		<string>HOME</string>
 		<key>76</key>
 		<string>⌦</string>
+		<key>75</key>
+		<string>PAGEUP</string>
+		<key>78</key>
+		<string>PAGEDOWN</string>
+		<key>83</key>
+		<string>CLEAR</string>
+		<key>103</key>
+		<string>N=</string>
+		<key>84</key>
+		<string>N/</string>
+		<key>85</key>
+		<string>N*</string>
+		<key>86</key>
+		<string>N-</string>
+		<key>87</key>
+		<string>N+</string>
+		<key>88</key>
+		<string>N⏎</string>
+		<key>89</key>
+		<string>N1</string>
+		<key>90</key>
+		<string>N2</string>
+		<key>91</key>
+		<string>N3</string>
+		<key>92</key>
+		<string>N4</string>
+		<key>93</key>
+		<string>N5</string>
+		<key>94</key>
+		<string>N6</string>
+		<key>95</key>
+		<string>N7</string>
+		<key>96</key>
+		<string>N8</string>
+		<key>97</key>
+		<string>N9</string>
+		<key>98</key>
+		<string>N0</string>
+		<key>99</key>
+		<string>N.</string>
 		<key>77</key>
 		<string>END</string>
 		<key>79</key>
@@ -160,17 +200,6 @@
 		<string>MENU</string>
 		<key>144</key>
 		<string>K/E</string>
-	</dict>
-	<key>mod</key>
-	<dict>
-		<key>8</key>
-		<string>⌃</string>
-		<key>4</key>
-		<string>⇧</string>
-		<key>2</key>
-		<string>⌥</string>
-		<key>1</key>
-		<string>⌘</string>
 	</dict>
 </dict>
 </plist>
